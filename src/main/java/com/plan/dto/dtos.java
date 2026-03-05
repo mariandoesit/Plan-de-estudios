@@ -46,7 +46,7 @@ public class dtos {
     // ------ MATERIAS ------------------------
 
     @Data
-    public static class MaterialDto {
+    public static class MateriaDto {
         private Long id;
         private String codigo;
         private String nombre;

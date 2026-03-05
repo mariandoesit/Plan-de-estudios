@@ -9,6 +9,7 @@ import java.util.Optional;
 
 @Repository
 public interface MateriaRepository extends JpaRepository<Materia, Long> {
-    List<Materia> findAllByAnioAsc();
+    List<Materia> findAllByOrderByAnioAsc();
     Optional<Materia> findByCodigo(String codigo);
+
 }
