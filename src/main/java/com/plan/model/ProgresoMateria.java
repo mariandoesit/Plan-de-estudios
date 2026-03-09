@@ -32,6 +32,7 @@ public class ProgresoMateria {
 
     public enum EstadoMateria{
         NONE,
+        CURSANDO,
         REGULAR,
         PROMOCIONADA
     }
